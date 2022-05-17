@@ -1,0 +1,22 @@
+{
+    "runOnSave.statusMessageTimeout": 3000,
+    "runOnSave.commands": [
+      // {
+      //   "match": ".*\\.rs$",
+      //   "command": "cargo check",
+      //   "runIn": "terminal"
+      // },
+      // {
+      //   "match": ".*\\.rs$",
+      //   "command": "cargo run",
+      //   "runIn": "terminal"
+      // },
+      {
+        "match": ".*\\.rs$",
+        "command": "cargo test",
+        "runIn": "terminal"
+      },
+    ],
+    "git.ignoreLimitWarning": true,
+    "solidity.defaultCompiler": "localNodeModule"
+  }
